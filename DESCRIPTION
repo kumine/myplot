@@ -1,0 +1,11 @@
+Package: myplot
+Type: Package
+Title: Saving all base R graphics like ggsave
+Version: 1.0
+Date: 2018-03-09
+Author: WangMin
+Maintainer: WangMin <caumine@gmail.com>
+Description: Saving all base R graphics like ggsave
+License: GPL (>= 2)
+NeedsCompilation: no
+
