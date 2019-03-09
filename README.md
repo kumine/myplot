@@ -58,6 +58,7 @@ ggsave("mtcars.pdf", width = 20, height = 20, units = "cm")
 - We can use **myplot** as follow. But it seems some inconvenient
 
 ```
+library(myplot)
 p=myplot(set.seed(1),
          x=rnorm(100),
          y=x*5+rnorm(100),
@@ -74,6 +75,7 @@ plotsave(p,file="test2.pdf",width = 150, height = 150, units = "mm")
 
 
 ```
+library(myplot)
 set.seed(1)
 x=rnorm(100)
 y=x*5+rnorm(100)
