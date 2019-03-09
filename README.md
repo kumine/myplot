@@ -57,7 +57,7 @@ ggsave("mtcars.pdf", width = 20, height = 20, units = "cm")
 
 - We can use **myplot** as follow. But it seems some inconvenient
 
-```
+```r
 library(myplot)
 p=myplot(set.seed(1),
          x=rnorm(100),
@@ -74,7 +74,7 @@ plotsave(p,file="test2.pdf",width = 150, height = 150, units = "mm")
 - **{}** make **myplot** much convenient. All R code can be written in **{}** as usual.
 
 
-```
+```r
 library(myplot)
 set.seed(1)
 x=rnorm(100)
