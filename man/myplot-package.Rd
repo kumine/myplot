@@ -13,7 +13,7 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{myplot}
 \packageIndices{myplot}
-~~ An overview of how to use the package, including the most important functions ~~
+Saving base R graphics like **ggsave**
 }
 \author{
 \packageAuthor{myplot}

@@ -17,7 +17,7 @@ plotsave(plot,file=NULL,
 \arguments{
 \item{plot}{A myplot object to save}
 
-\item{file}{File name to create on disk.}
+\item{file}{File name to create on disk.plot current window if NULL}
 
 \item{device}{Device to use (function or any of the recognized extensions,
 e.g. \code{"pdf"}). By default, extracted from filename extension.
