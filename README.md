@@ -1,7 +1,7 @@
 # myplot package: Saving all base R graphics like ggsave
 
 
-Chenise help please [see](https://www.jianshu.com/p/e2219188f14e)
+### Chinese help please [see](https://www.jianshu.com/p/e2219188f14e)
 
 
 ## 1.install
