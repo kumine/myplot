@@ -1,8 +1,12 @@
 # myplot package: Saving all base R graphics like ggsave
 
+
+Chenise help please [see](https://www.jianshu.com/p/e2219188f14e)
+
+
 ## 1.install
 
-myplot package is not avaible in CRAN. you can install it in github using following code.
+myplot package is not available in CRAN. you can install it in github using following code.
 
 
 ```r
@@ -52,8 +56,8 @@ ggsave("mtcars.pdf", width = 20, height = 20, units = "cm")
 
 - Whether can we save base R graphics like **ggsave**? The answer is *YES*. Using **myplot** package, We can save all base R graphic like ggsave. myplot package have two functions:
 
-   - myplot:  use *match.call* to record all R call as a myplot object, and then passing to *plotsave* saving graphic.
-   - plotsave: Save a myplot class plot. it is modified from **ggsave** and has all features of **ggsave**.
+   - **myplot**:  use *match.call* to record all R call as a myplot object, and then passing to *plotsave* saving graphic.
+   - **plotsave**: Save a myplot class plot. it is modified from **ggsave** and has all features of **ggsave**.
 
 - We can use **myplot** as follow. But it seems some inconvenient
 
